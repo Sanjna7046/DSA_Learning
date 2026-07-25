@@ -3,6 +3,7 @@
 ## Definition
 
 Insertion Sort is a simple comparison-based sorting algorithm that builds the final sorted array one element at a time. It picks one element from the unsorted part and inserts it into its correct position in the sorted part.
+Example "Insertion Sort works like sorting playing cards in your hand. Each new card is inserted into the correct position among the cards you've already sorted."
 
 ## Algorithm
 
