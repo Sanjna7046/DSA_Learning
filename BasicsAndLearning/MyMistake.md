@@ -106,3 +106,10 @@ accumulate(v.begin(), v.end(), 0);
 
 binary_search(v.begin(), v.end(), x);
 ```
+
+## imp
+```cpp
+int n;
+long long sum;
+sum=1LL*n*n;
+```
