@@ -113,3 +113,12 @@ int n;
 long long sum;
 sum=1LL*n*n;
 ```
+
+## If you want to find any positive value (> 0), use find_if(), which takes a condition.
+
+
+```cpp
+auto it = find_if(v.begin(), v.end(), [](int x) {
+    return x > 0;
+});
+```
