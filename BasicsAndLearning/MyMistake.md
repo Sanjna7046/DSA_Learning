@@ -118,7 +118,13 @@ sum=1LL*n*n;
 
 
 ```cpp
+
 auto it = find_if(v.begin(), v.end(), [](int x) {
     return x > 0;
 });
+
+if (it != part1.end()) {
+    int index = distance(part1.begin(), it);
+    cout << index;
+}
 ```
